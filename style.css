@@ -1,5 +1,5 @@
 .nav{
-    display:inline-flex;
+    display:flex;
     flex-direction: row;
     gap:29px;
     justify-content: flex-end;
@@ -7,7 +7,8 @@
 
 .head {
     display:flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .comp{
@@ -21,20 +22,73 @@
     border:solid black 2px;
     width:100px;
     height:30px;
+    margin-right:24px;
 }
 
 .navtext{
     text-decoration: none;
+    align-self: flex-end;
+    color:black;
 }
 
-.main1{
-    background-image: url(tropical-beach-2560x1440-14811.jpg);
+.section1{
+    background-image: url(bg.jpg);
     width:auto;
     height:860px;
     margin:20px;
     border-radius:30px;
+    display:flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
 }
 
 body{
-    font-family: "Luckiest Guy";
+    font-family: "Kablammo";
+}
+
+.head h2 {
+    margin:0;
+    margin-left:20px;
+}
+
+h1{
+    color:white;
+    font-size: 100px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-200px;
+}
+
+.lorem{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    text-indent: 20px;
+}
+
+.twitter{
+    font-size:50px;
+    color:black;
+}
+
+.facebook{
+    font-size:50px;
+    color:black;
+}
+
+.github{
+    font-size:50px;
+    color:black;
+}
+
+.socmed {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    bottom:50%;
+    top:20%;
 }
