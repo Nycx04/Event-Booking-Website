@@ -31,23 +31,20 @@
     color:black;
 }
 
-.section1{
-    background-image: url(bg.jpg);
-    width:auto;
-    height:860px;
-    margin:20px;
-    border-radius:30px;
-    display:flex;
-    justify-content: center;
+.section1 {
+    background-image: url(e7a1263a-ac15-4db4-8cc0-944eb9ea637a.jpg);
+    height: 860px;
+    width:100%;
+    margin: 20px;
+    border-radius: 30px;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    display:flex;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-body{
-    font-family: "Kablammo";
-}
 
 .head h2 {
     margin:0;
@@ -64,24 +61,24 @@ h1{
 }
 
 .lorem{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     text-align: center;
     text-indent: 20px;
 }
 
 .twitter{
     font-size:50px;
-    color:black;
+    color:rgb(255, 255, 255);
 }
 
 .facebook{
     font-size:50px;
-    color:black;
+    color:rgb(255, 255, 255);
 }
 
 .github{
     font-size:50px;
-    color:black;
+    color:rgb(255, 253, 253);
 }
 
 .socmed {
@@ -91,4 +88,20 @@ h1{
     position:relative;
     bottom:50%;
     top:20%;
+}
+
+.main{
+    height:100vh;
+    margin:20px;
+}
+
+.main h1 {
+    margin:0;
+    color:black;
+}
+
+.img {
+    display:flex;
+    width:200px;
+    height:330px;
 }
